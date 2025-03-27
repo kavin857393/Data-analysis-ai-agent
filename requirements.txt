@@ -1,0 +1,41 @@
+nltk
+langchain-huggingface
+scipy
+numpy
+pandas
+tabulate
+
+# Data visualisation
+seaborn
+matplotlib
+# Machine Learning
+scikit-learn
+xgboost
+lightgbm
+imbalanced-learn
+
+
+# AI & LLMs
+langchain
+langgraph
+langchain-community
+langchain-huggingface
+huggingface_hub
+chromadb
+langchain_groq
+
+# Web Frameworks & UI
+streamlit
+chainlit
+uvicorn
+fastapi[standard]
+
+# Database (PostgreSQL)
+psycopg
+psycopg2
+sqlmodel
+
+# Environment & Config
+python-dotenv
+pydantic
+pydantic-settings
