@@ -8,17 +8,15 @@
    - Optional: Badges for build status, version, license, etc.
 
 2. **Description**
-   - Briefly describe the purpose of the project. For example:
      - "This project uses an AI-powered agent for performing advanced data analysis, leveraging Python libraries and tools."
 
 3. **Features**
-   - List key features of your project, such as:
      - Automated data preprocessing.
      - AI/ML model integration.
      - Visualization of data insights.
 
 4. **Installation**
-   - Provide instructions for how to install or set up the project. For example:
+   - Instructions for how to install or set up the project.
      ```bash
      git clone https://github.com/kavin857393/Data-analysis-ai-agent.git
      cd Data-analysis-ai-agent
@@ -26,22 +24,30 @@
      ```
 
 5. **Usage**
-   - Explain how to use the project. Include commands or code snippets.
-
-6. **Examples**
-   - Showcase examples of the AI agent in action, such as analyzing datasets or visualizing trends.
+   - Run The main script
+   -  ```bash
+      fastapi dev backend/main.py
+      ```
+   -  Then Run the frontend alongwith backend.
+       ```bash
+       streamlit frontend/app.py
+       ```
 
 7. **Technologies Used**
-   - Mention any Python libraries or tools your project uses.
+   - Python language and its libraries and tools utilized by the project like pandas, numpy, scikit-learn, matplotlib.
+   - Transformers used in this project is all mini sentence transformer from huggingface 
+   - Tools for visualising Agents like Langchain , API is Groq and in this model you can select deepseek r1 & Meta llama 3.1.
 
 8. **Contributing**
-   - Guidelines for contributing to the project.
+   - I usually mainly focesed this with teamowrk colleagues . My side is to improve tools, prompts and finetuning models.Rest of twos are focused on frontend and automation testing this agent.
+   
 
 9. **License**
-   - Specify the type of license (MIT, Apache, etc.).
+   -Apache.
 
 10. **Acknowledgments**
-   - Credit any resources or inspirations for your project.
+   - Langchain documentation
+     
 
 ---
 
